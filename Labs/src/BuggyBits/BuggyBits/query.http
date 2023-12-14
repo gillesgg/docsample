@@ -1,0 +1,25 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+// PID : 47916
+
+
+
+@hostname=localhost
+@port=52323
+GET https://{{hostname}}:{{port}}/processes
+
+
+###
+
+GET https://{{hostname}}:{{port}}/trace?pid=47916
+
+
+###
+GET https://{{hostname}}:{{port}}/dumps?pid=47916
+
+
+
+
+curl -X 'GET' 'https://localhost:52323/logs?pid=47916' -H 'accept: application/json'
+curl -X 'GET' 'https://localhost:52323/dumps?pid=47916' -H 'accept: application/json'
+
+

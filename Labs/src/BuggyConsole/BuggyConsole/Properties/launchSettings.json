@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "vmmapdemo": {
+      "commandName": "Project",
+      "commandLineArgs": "--Option Objects"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "commandLineArgs": "\"{OutDir}/BuggyConsole.dll\" --Option Memory",
+      "distributionName": ""
+    }
+  }
+}
