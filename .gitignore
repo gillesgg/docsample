@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Labs/src/BuggyBits/.vs
+/.vs
+/presentation
+/Labs/src/BuggyConsole/.vs
+/Labs/src/BuggyConsole/BuggyConsole/bin
+/Labs/src/BuggyConsole/BuggyConsole/obj/Debug/net8.0
+/Labs/src/BuggyConsole/BuggyConsole/obj/Release/net8.0
+/Labs/src/BuggyConsole/BuggyConsole/obj
