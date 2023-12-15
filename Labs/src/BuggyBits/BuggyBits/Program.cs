@@ -25,7 +25,7 @@ namespace BuggyBits
             builder.Services.AddControllersWithViews();
             builder.Services.AddSingleton(_ => new DataLayer());
 
-            builder.AddInfrastructure();
+            
 
 
             var app = builder.Build();
