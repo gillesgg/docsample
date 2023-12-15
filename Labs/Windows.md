@@ -3,6 +3,9 @@
 ## Install winget tool
 https://www.microsoft.com/p/app-installer/9nblggh4nns1#activetab=pivot:overviewtab
 
+## Install Windbg
+Winget install "WinDbg Preview" --force --accept-package-agreements --accept-source-agreements
+
 ## Install Windows Terminal
 From cmd or PowerShell start
 winget install Microsoft.WindowsTerminal -y
